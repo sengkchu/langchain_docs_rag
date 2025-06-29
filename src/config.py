@@ -10,6 +10,8 @@ class GlobalConfig:
     # Secrets
     project_scope_name: str = "langgraph_docs_rag"
     databricks_key_name: str = "databricks_rag"
+
+    # Databricks PAT token placeholder
     secret: str = ""
 
     # Data storage and chunking dataframe setup
